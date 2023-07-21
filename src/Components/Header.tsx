@@ -1,27 +1,24 @@
 import React from 'react'
+import WatchTheDemo from './assets/WatchTheDemo'
 
 export default function Header() {
   return (
-    <div className='flex px-28 justify-between items-center py-5'>
+    <div className='flex justtify-center items-center gap-36 shrink-0 px-[405px] py-10'>
       
       <div>
-        <img src='./images/logo.png'></img>
+        <img src='./images/logoheder.svg'></img>
       </div>
-
-      <ul className='flex gap-12'>
-        <li><a href='#home'>Home</a></li>
-        <li><a href='#service'>Service</a></li>
-        <li><a href='#feature'>Feature</a></li> 
-        <li><a href='#product'>Product</a></li>
-        <li><a href='#Testimonial'>Testimonial</a></li>
-        <li><a href='#faq'>FAQ</a></li>
-      </ul>
-
-      <div className='flex gap-3 w-28 h-8'>
-        <button className='rounted-md text-shade-1'><text className=''>login</text></button>
-        <button className='bg-primary rounded-md text-base text-white indenty-5 indentx-2 w-28'>Sing up</button>
-      </div>
-
+    <ul className=' flex gap-10'>
+      <li className='Headline_7_SemiBold text-black'>Home</li>
+      <li className='Headline_7_Medium text-grey'>Solutions</li>
+      <li className='Headline_7_Medium text-grey'>Pages</li>
+      <li className='Headline_7_Medium text-grey'>Elements</li>
+      <li className='Headline_7_Medium text-grey'>Blog</li>
+      <li className='Headline_7_Medium text-grey'>Contacts</li>
+    </ul>
+    <button>
+      <WatchTheDemo></WatchTheDemo>
+      </button>
     </div>
   )
 }

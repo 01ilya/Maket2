@@ -1,126 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Manrope:wght@200;300;400;500;600;700;800&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 
-.regular-body-1 {
- font-family: Inter;
- font-size: 18px;
- font-style: normal;
- font-weight: 400;
- line-height: 28px;
-};
+h1 {
+font-family: Manrope;
+font-size: 46px;
+font-style: normal;
+font-weight: 800;
+line-height: 60px; /* 130.435% */
+letter-spacing: -0.69px;
+}
 
-.medium-body-1 {
- color: var(--neutral-black, #212121);
- /* Body/Medium/Body 1 */
- font-family: Inter;
- font-size: 18px;
- font-style: normal;
- font-weight: 500;
- line-height: 28px;
-};
+h2 {
+font-family: Manrope;
+font-size: 38px;
+font-style: normal;
+font-weight: 800;
+line-height: 56px; /* 147.368% */
+letter-spacing: -0.57px;
+}
 
-.regular-body-2{
- color: var(--neutral-black, #212121);
- /* Body/Regular/Body 2 */
- font-family: Inter;
- font-size: 16px;
- font-style: normal;
- font-weight: 400;
- line-height: 24px;
-};
+h3 {
+    font-family: Manrope;
+font-size: 30px;
+font-style: normal;
+font-weight: 800;
+line-height: 40px; /* 133.333% */
+letter-spacing: -0.45px;
+}
 
-.medium-body-2 {
- color: var(--neutral-black, #212121);
- /* Body/Medium/Body 2 */
- font-family: Inter;
- font-size: 16px;
- font-style: normal;
- font-weight: 500;
- line-height: 24px;
-};
+h4 {
+  font-family: Manrope;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 33px; /* 150% */
+  letter-spacing: -0.33px;
+}
 
-.regular-body-3{
- color: var(--neutral-black, #212121);
- /* Body/Regular/Body 3 */
- font-family: Inter;
- font-size: 14px;
- font-style: normal;
- font-weight: 400;
- line-height: 20px;
-};
-
-.medium-body-3 {
- color: var(--neutral-black, #212121);
- /* Body/Medium/Body 3 */
- font-family: Inter;
- font-size: 14px;
- font-style: normal;
- font-weight: 500;
- line-height: 20px;  
-};
-
-.regular-body-4{
- color: var(--neutral-black, #212121);
- /* Body/Regular/Body 4 */
- font-family: Inter;
- font-size: 12px;
- font-style: normal;
- font-weight: 400;
- line-height: 16px;
-};
-
-.medium-body-4 {
- color: var(--neutral-black, #212121);
- /* Body/Medium/Body 4 */
- font-family: Inter;
- font-size: 12px;
- font-style: normal;
- font-weight: 500;
- line-height: 16px;
-};
-
- .h1 {
-    /* Heading/Headline 1 */
-    font-family: Inter;
-    font-size: 64px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 76px;
-};
-
-.h2 {
-    font-family: Inter;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 44px;
-};
-
-.h3 {
-    font-family: Inter;
-    font-size: 28px;
+h5 {
+    font-family: Manrope;
+    font-size: 20px;
     font-style: normal;
     font-weight: 700;
-    line-height: 36px;
-};
+    line-height: 30px; /* 150% */
+    letter-spacing: -0.3px;
+}
 
-.h4 {
-/* Heading/Headline 4 */
-font-family: Inter;
-font-size: 20px;
+h6 {
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 150% */
+    letter-spacing: -0.24px;  
+}
+
+.Headline_7_SemiBold {
+font-family: Manrope;
+font-size: 14px;
 font-style: normal;
 font-weight: 600;
-line-height: 28px;
-};
+line-height: 24px; /* 171.429% */
+letter-spacing: -0.14px;
+}
 
-.mlab {
-    display: inline-flex;
-padding: 14px 32px;
-justify-content: center;
-align-items: center;
-gap: 10px;
-border-radius: 4px;
-background: var(--brand-primary, #4CAF4F);
-};
+.Headline_7_Medium {
+font-family: Manrope;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 171.429% */
+letter-spacing: -0.14px;
+}
+
+.Paragraph_1_Regular {
+font-family: Open Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 33px; /* 165% */
+letter-spacing: -0.3px;
+}
+
+.Paragraph_2_Regular {
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+letter-spacing: -0.24px;
+}
+
+.Paragraph_2_Bold {
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 28px; /* 175% */
+letter-spacing: -0.24px;
+}
+
+.Paragraph_3_Regular {
+font-family: Open Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 171.429% */
+letter-spacing: -0.21px;
+}
+
+.Paragraph_3_SemiBold {
+font-family: Open Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px; /* 171.429% */
+letter-spacing: -0.21px;
+}
+
+.proxy {
+    color: var(--primary, #185CFF);
+text-align: center;
+font-family: Manrope;
+font-size: 14px;
+font-style: normal;
+font-weight: 800;
+line-height: 24px; /* 171.429% */
+letter-spacing: -0.21px;
+}
+
+.Shadow_card_3 {
+    box-shadow: 0px 4px 12px 0px rgba(12, 68, 204, 0.10);
+}
+
+.Shadow_card_2 {
+    box-shadow: 0px 12px 30px 17px rgba(24, 92, 255, 0.04);
+}
+
+.company {
+color: #FFF;
+text-align: center;
+font-family: Open Sans;
+font-size: 56px;
+font-style: normal;
+font-weight: 800;
+line-height: 112px; /* 200% */
+letter-spacing: -1.4px;
+}
+

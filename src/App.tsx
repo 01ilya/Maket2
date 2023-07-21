@@ -1,9 +1,16 @@
+import Advantages from './Components/Advantages';
+import Features1 from './Components/Features1';
+import Features2 from './Components/Features2';
+import Find from './Components/Find';
 import Header from './Components/Header';
+import Blog from './Components/Blog';
+import Reviews from './Components/Reviews';
+import Reviews2 from './Components/Reviews2';
+import Company from './Components/Company';
+import ContactUs from './Components/ContactUs';
+import Sub from './Components/Sub';
 import Footer from './Components/Footer';
-import HeroSection from './Components/HeroSection';
-import Clients from './Components/Clients';
-import Member from './Components/Member';
-import Unlock from './Components/Unlock';
+
 
 
 function App() {
@@ -11,12 +18,17 @@ function App() {
     <div>
     
     <Header></Header>
-    <HeroSection></HeroSection>
-    <Clients></Clients>
-    <Member></Member>
-    <Unlock></Unlock>
-   
-    {/* <Footer></Footer> */}
+    <Find></Find>
+    <Advantages></Advantages>
+    <Features1></Features1>
+    <Features2></Features2>
+    <Blog></Blog>
+    <Reviews></Reviews>
+    <Reviews2></Reviews2>
+    <Company></Company>
+    <ContactUs></ContactUs>
+    <Sub></Sub>
+    <Footer></Footer>
    
    </div>
 );
