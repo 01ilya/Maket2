@@ -16,22 +16,22 @@ import Footer from './Components/Footer';
 function App() {
   return (
     <div>
-    
-    <Header></Header>
-    <Find></Find>
-    <Advantages></Advantages>
-    <Features1></Features1>
-    <Features2></Features2>
-    <Blog></Blog>
-    <Reviews></Reviews>
-    <Reviews2></Reviews2>
-    <Company></Company>
-    <ContactUs></ContactUs>
-    <Sub></Sub>
-    <Footer></Footer>
-   
-   </div>
-);
+
+      <Header></Header>
+      <Find></Find>
+      <Advantages></Advantages>
+      <Features1></Features1>
+      <Features2></Features2>
+      <Blog></Blog>
+      <Reviews></Reviews>
+      <Reviews2></Reviews2>
+      <Company></Company>
+      <ContactUs></ContactUs>
+      <Sub></Sub>
+      <Footer></Footer>
+
+    </div>
+  );
 }
 
 export default App;

@@ -11,8 +11,8 @@ export default function Reviews() {
 
 
       <div className='  flex items-start gap-4 pt-10 pl-96'>
-       <button className='bg-tertiary w-28 h-14 rounded-md' ><img src='./images/left.svg' className='px-10'/></button>
-       <button className='bg-tertiary  w-28 h-14 rounded-md'><img src='./images/right.svg' className='px-10'/></button>
+        <button className='bg-tertiary w-28 h-14 rounded-md' ><img src='./images/left.svg' className='px-10' /></button>
+        <button className='bg-tertiary  w-28 h-14 rounded-md'><img src='./images/right.svg' className='px-10' /></button>
       </div>
 
     </div>
