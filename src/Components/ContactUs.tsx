@@ -23,7 +23,7 @@ export default function ContactUs() {
 
 
       <div className='px-16 bg-white w-[445px] py-12 Shadow_card_2'>
-        <h3 className='text-black'>Contact Us</h3>
+        <h3 className='text-black Headline_3_ExtraBold'>Contact Us</h3>
         <div className='pt-7 Headline_8_SemiBold text-grey'>Name</div>
         <input type="text" placeholder='Andrea' className='placeholder-black Paragraph_3_SemiBold' />
         <div className='h-[1px] bg-black w-80'></div>

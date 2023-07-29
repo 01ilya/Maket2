@@ -17,18 +17,17 @@ function App() {
   return (
     <div>
 
-      <Header></Header>
+      <Header />
       <Find></Find>
       <Advantages></Advantages>
       <Features1></Features1>
       <Features2></Features2>
       <Blog></Blog>
-      <Reviews></Reviews>
       <Reviews2></Reviews2>
-      <Company></Company>
+      {/* <Company></Company>
       <ContactUs></ContactUs>
       <Sub></Sub>
-      <Footer></Footer>
+      <Footer></Footer> */}
 
     </div>
   );

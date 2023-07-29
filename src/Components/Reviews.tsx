@@ -6,7 +6,7 @@ export default function Reviews() {
 
 
       <div className='w-[445px] h-32'>
-        <h1>Trusted by the best in the business</h1>
+        <h1 className='Headline_1_ExtraBold'>Trusted by the best in the business</h1>
       </div>
 
 

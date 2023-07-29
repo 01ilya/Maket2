@@ -5,6 +5,7 @@
 @tailwind components;
 @tailwind utilities;
 
+/* кастомный хук */
 
 h1 {
     font-family: Manrope;
@@ -14,9 +15,22 @@ h1 {
     line-height: 60px;
     /* 130.435% */
     letter-spacing: -0.69px;
+
+
+
+
+    @media (max-width: 767px) {
+        font-family: Manrope;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 40px;
+        /* 133.333% */
+        letter-spacing: -0.45px;
+    }
 }
 
-h2 {
+.Headline_2_ExtraBold {
     font-family: Manrope;
     font-size: 38px;
     font-style: normal;
@@ -26,7 +40,7 @@ h2 {
     letter-spacing: -0.57px;
 }
 
-h3 {
+.Headline_3_ExtraBold {
     font-family: Manrope;
     font-size: 30px;
     font-style: normal;
@@ -36,7 +50,7 @@ h3 {
     letter-spacing: -0.45px;
 }
 
-h4 {
+.Headline_4_ExtraBold {
     font-family: Manrope;
     font-size: 22px;
     font-style: normal;
@@ -46,7 +60,7 @@ h4 {
     letter-spacing: -0.33px;
 }
 
-h5 {
+.Headline_5_ExtraBold {
     font-family: Manrope;
     font-size: 20px;
     font-style: normal;
@@ -56,7 +70,7 @@ h5 {
     letter-spacing: -0.3px;
 }
 
-h6 {
+.Headline_6_ExtraBold {
     font-family: Manrope;
     font-size: 16px;
     font-style: normal;

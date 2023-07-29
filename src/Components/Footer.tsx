@@ -45,7 +45,7 @@ export default function Footer() {
         <div className='flex gap-28 justify-between pb-12'>
 
           <div>
-            <h6 className='text-black'>Contacts</h6>
+            <h6 className='text-black Headline_6_ExtraBold'>Contacts</h6>
             <div className='Paragraph_3_Regular text-black pt-4'>+1 601-201-5580</div>
             <div className='flex items-centr pt-2'>
               <div className='Headline_7_SemiBold  text-black'>ensome@info.co.us</div>
@@ -65,7 +65,7 @@ export default function Footer() {
 
         <div>
           <div className='text-black'>
-            <h6>Social</h6>
+            <h6 className='Headline_6_ExtraBold'>Social</h6>
           </div>
 
           <div className='flex gap-2 pt-4'>
