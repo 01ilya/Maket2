@@ -19,6 +19,7 @@ module.exports = {
         '3xl': '4px 4px 0px rgba(0, 0, 0, 0.25)',
       },
       colors: {
+        'helper': '#C9DCEC',
         'primary': '#185CFF',
         'secondary': '#002B4E',
         'tertiary': '#F0F9FF',

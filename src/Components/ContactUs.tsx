@@ -3,7 +3,7 @@ import Send from './assets/Send'
 
 export default function ContactUs() {
   return (
-    <div className='shrink-0 bg-background px-[405px] gap-32 py-32 flex items-center'>
+    <div className='shrink-0 bg-background px-[405px] gap-32 py-32 flex items-center sm:px-4'>
 
       <div>
         <div>
@@ -22,7 +22,7 @@ export default function ContactUs() {
       </div>
 
 
-      <div className='px-16 bg-white w-[445px] py-12 Shadow_card_2'>
+      <div className='px-16 bg-white w-[445px] py-12 Shadow_card_2 sm:hidden'>
         <h3 className='text-black Headline_3_ExtraBold'>Contact Us</h3>
         <div className='pt-7 Headline_8_SemiBold text-grey'>Name</div>
         <input type="text" placeholder='Andrea' className='placeholder-black Paragraph_3_SemiBold' />

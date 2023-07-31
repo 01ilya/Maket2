@@ -24,10 +24,10 @@ function App() {
       <Features2></Features2>
       <Blog></Blog>
       <Reviews2></Reviews2>
-      {/* <Company></Company>
+      <Company></Company>
       <ContactUs></ContactUs>
       <Sub></Sub>
-      <Footer></Footer> */}
+      <Footer></Footer>
 
     </div>
   );
