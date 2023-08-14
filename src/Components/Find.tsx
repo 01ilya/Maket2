@@ -1,6 +1,8 @@
 import React from 'react'
+
 import LernMore from './assets/LernMore'
 import WatchTheDemoWhite from './assets/WatchTheDemoWhite'
+import FindSlider from './FindSlider'
 
 export default function Find() {
    return (
@@ -13,18 +15,10 @@ export default function Find() {
                   <button><LernMore /></button>
                   <button><WatchTheDemoWhite /></button>
                </div>
-
             </div>
             <img src="./images/il01.png" />
          </div>
-         <div className='flex gap-2 justify-center sm:h-16 sm:items-center sm:gap-0'>
-            <img src="./images/hed1.svg" className='sm:w-24 sm:h-16' />
-            <img src="./images/hed2.svg" className='sm:w-24 sm:h-16' />
-            <img src="./images/hed3.svg" className='sm:w-24 sm:h-16' />
-            <img src="./images/hed4.svg" className='sm:w-24 sm:h-16' />
-            <img src="./images/hed5.svg" className='sm:hidden' />
-            <img src="./images/hed6.svg" className='sm:hidden' />
-         </div>
+         <FindSlider />
       </div>
    )
 }

@@ -3,9 +3,7 @@ import React from 'react'
 export default function Footer() {
   return (
     <div className='bg-background px-[405px] py-12 sm:px-8' >
-
-
-      <div className='flex gap-96 justify-between pb-12' >
+      <div className='grid grid-cols-2 pb-12 border-b-2 border-b-helper sm:border-hidden' >
         <div><img src="./images/logoheder.svg" /></div>
         <div className='flex gap-32 sm:hidden'>
           <div>
@@ -38,12 +36,8 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className='w-[1110px] h-[1px] bg-slate-300 sm:hidden'></div>
-
-      <div className=' flex justify-between  pt-12 sm:hidden'>
-
+      <div className=' flex justify-between  pt-12 sm:hidden border-b-2 border-b-helper '>
         <div className='flex gap-28 justify-between pb-12'>
-
           <div>
             <h6 className='text-black Headline_6_ExtraBold'>Contacts</h6>
             <div className='Paragraph_3_Regular text-black pt-4'>+1 601-201-5580</div>
@@ -52,7 +46,6 @@ export default function Footer() {
               <img src='./images/right.svg' className='w-4 h-6'></img>
             </div>
           </div>
-
           <div>
             <div className='Paragraph_3_Regular text-black pt-10 '>1642 Washington Avenue, Jackson, MS, 39201</div>
             <div className='flex items-centr pt-2'>
@@ -60,14 +53,11 @@ export default function Footer() {
               <img src='./images/right.svg' className='w-4 h-6'></img>
             </div>
           </div>
-
         </div>
-
         <div>
           <div className='text-black'>
             <h6 className='Headline_6_ExtraBold'>Social</h6>
           </div>
-
           <div className='flex gap-2 pt-4'>
             <img src="./images/facebook.svg" />
             <img src="./images/twitter.svg" />
@@ -78,8 +68,6 @@ export default function Footer() {
           </div>
         </div>
       </div>
-
-      <div className='w-[1110px] h-[1px] bg-slate-300 sm:hidden '></div>
 
       <div className='flex py-10 sm:hidden '>
         <div className='flex'>

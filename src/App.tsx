@@ -1,10 +1,8 @@
 import Advantages from './Components/Advantages';
 import Features1 from './Components/Features1';
-import Features2 from './Components/Features2';
 import Find from './Components/Find';
 import Header from './Components/Header';
 import Blog from './Components/Blog';
-import Reviews from './Components/Reviews';
 import Reviews2 from './Components/Reviews2';
 import Company from './Components/Company';
 import ContactUs from './Components/ContactUs';
@@ -21,7 +19,6 @@ function App() {
       <Find></Find>
       <Advantages></Advantages>
       <Features1></Features1>
-      <Features2></Features2>
       <Blog></Blog>
       <Reviews2></Reviews2>
       <Company></Company>

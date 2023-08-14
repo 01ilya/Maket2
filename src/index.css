@@ -215,3 +215,7 @@ h2 {
 .shadow-text {
     filter: drop-shadow(4px 4px 0px rgba(0, 0, 0, 0.25));
 }
+
+.slick-slide {
+    padding: 10px;
+}
